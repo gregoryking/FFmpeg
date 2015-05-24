@@ -7,13 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		378573461AE6DD2200C48777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		370486291B054A4100D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		3704864F1B054A6F00D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		370486751B054A8100D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		3704869B1B054A9200D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		370486C11B054AA100D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		370486E71B054AAE00D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		3785737A1AED942700C48777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3704870C1B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378573781AED942700C48777;
+			remoteInfo = avcodec;
+		};
+		3704870E1B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370486271B054A4100D6F997;
+			remoteInfo = avdevice;
+		};
+		370487101B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3704864D1B054A6F00D6F997;
+			remoteInfo = avfilter;
+		};
+		370487121B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370486731B054A8100D6F997;
+			remoteInfo = avformat;
+		};
+		370487141B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370486991B054A9200D6F997;
+			remoteInfo = avutil;
+		};
+		370487161B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370486BF1B054AA100D6F997;
+			remoteInfo = swresample;
+		};
+		370487181B05677000D6F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37854B3F1ADDB77300C48777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370486E51B054AAE00D6F997;
+			remoteInfo = swscale;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		378573401AE6DD2100C48777 /* CopyFiles */ = {
+		370486261B054A4100D6F997 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3704864C1B054A6F00D6F997 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486721B054A8100D6F997 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486981B054A9200D6F997 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486BE1B054AA100D6F997 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486E41B054AAE00D6F997 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378573771AED942700C48777 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
@@ -23,6 +135,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		370486281B054A4100D6F997 /* libavdevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libavdevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3704864E1B054A6F00D6F997 /* libavfilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libavfilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		370486741B054A8100D6F997 /* libavformat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libavformat.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3704869A1B054A9200D6F997 /* libavutil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libavutil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		370486C01B054AA100D6F997 /* libswresample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libswresample.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		370486E61B054AAE00D6F997 /* libswscale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libswscale.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		37855FA31AE389A400C48777 /* audiogen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audiogen.c; sourceTree = "<group>"; };
 		37855FA41AE389A400C48777 /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
 		37855FA51AE389A400C48777 /* copycooker.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = copycooker.sh; sourceTree = "<group>"; };
@@ -4973,16 +5091,65 @@
 		378573371AE3A0AF00C48777 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		378573381AE3A0AF00C48777 /* test.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = test.S; sourceTree = "<group>"; };
 		378573391AE4250500C48777 /* build-ffmpeg.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-ffmpeg.sh"; sourceTree = "<group>"; };
-		378573421AE6DD2100C48777 /* liblibavcodec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibavcodec.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		378573451AE6DD2200C48777 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		378573791AED942700C48777 /* libavcodec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libavcodec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		378575691B00FCAE00C48777 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3785733F1AE6DD2100C48777 /* Frameworks */ = {
+		370486251B054A4100D6F997 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378573461AE6DD2200C48777 /* Foundation.framework in Frameworks */,
+				370486291B054A4100D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3704864B1B054A6F00D6F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3704864F1B054A6F00D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486711B054A8100D6F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370486751B054A8100D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486971B054A9200D6F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3704869B1B054A9200D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486BD1B054AA100D6F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370486C11B054AA100D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486E31B054AAE00D6F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370486E71B054AAE00D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378573761AED942700C48777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3785737A1AED942700C48777 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10478,7 +10645,13 @@
 		378573431AE6DD2100C48777 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				378573421AE6DD2100C48777 /* liblibavcodec.a */,
+				378573791AED942700C48777 /* libavcodec.a */,
+				370486281B054A4100D6F997 /* libavdevice.a */,
+				3704864E1B054A6F00D6F997 /* libavfilter.a */,
+				370486741B054A8100D6F997 /* libavformat.a */,
+				3704869A1B054A9200D6F997 /* libavutil.a */,
+				370486C01B054AA100D6F997 /* libswresample.a */,
+				370486E61B054AAE00D6F997 /* libswscale.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -10487,6 +10660,7 @@
 			isa = PBXGroup;
 			children = (
 				378573451AE6DD2200C48777 /* Foundation.framework */,
+				378575691B00FCAE00C48777 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -10494,15 +10668,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		3785733A1AE4256A00C48777 /* ffmpeg */ = {
+		370487081B05555D00D6F997 /* ffmpeg */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = x86_64;
-			buildConfigurationList = 3785733B1AE4256A00C48777 /* Build configuration list for PBXLegacyTarget "ffmpeg" */;
+			buildArgumentsString = "";
+			buildConfigurationList = 370487091B05555D00D6F997 /* Build configuration list for PBXLegacyTarget "ffmpeg" */;
 			buildPhases = (
 			);
 			buildToolPath = "./build-ffmpeg.sh";
 			buildWorkingDirectory = "";
 			dependencies = (
+				3704870D1B05677000D6F997 /* PBXTargetDependency */,
+				3704870F1B05677000D6F997 /* PBXTargetDependency */,
+				370487111B05677000D6F997 /* PBXTargetDependency */,
+				370487131B05677000D6F997 /* PBXTargetDependency */,
+				370487151B05677000D6F997 /* PBXTargetDependency */,
+				370487171B05677000D6F997 /* PBXTargetDependency */,
+				370487191B05677000D6F997 /* PBXTargetDependency */,
 			);
 			name = ffmpeg;
 			passBuildSettingsInEnvironment = 1;
@@ -10511,21 +10692,123 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		378573411AE6DD2100C48777 /* libavcodec */ = {
+		370486271B054A4100D6F997 /* avdevice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 378573631AE6DD2200C48777 /* Build configuration list for PBXNativeTarget "libavcodec" */;
+			buildConfigurationList = 370486441B054A4200D6F997 /* Build configuration list for PBXNativeTarget "avdevice" */;
 			buildPhases = (
-				3785733E1AE6DD2100C48777 /* Sources */,
-				3785733F1AE6DD2100C48777 /* Frameworks */,
-				378573401AE6DD2100C48777 /* CopyFiles */,
+				370486241B054A4100D6F997 /* Sources */,
+				370486251B054A4100D6F997 /* Frameworks */,
+				370486261B054A4100D6F997 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = libavcodec;
-			productName = libavcodec;
-			productReference = 378573421AE6DD2100C48777 /* liblibavcodec.a */;
+			name = avdevice;
+			productName = avdevice;
+			productReference = 370486281B054A4100D6F997 /* libavdevice.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3704864D1B054A6F00D6F997 /* avfilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3704866A1B054A7000D6F997 /* Build configuration list for PBXNativeTarget "avfilter" */;
+			buildPhases = (
+				3704864A1B054A6F00D6F997 /* Sources */,
+				3704864B1B054A6F00D6F997 /* Frameworks */,
+				3704864C1B054A6F00D6F997 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avfilter;
+			productName = avfilter;
+			productReference = 3704864E1B054A6F00D6F997 /* libavfilter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		370486731B054A8100D6F997 /* avformat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370486901B054A8200D6F997 /* Build configuration list for PBXNativeTarget "avformat" */;
+			buildPhases = (
+				370486701B054A8100D6F997 /* Sources */,
+				370486711B054A8100D6F997 /* Frameworks */,
+				370486721B054A8100D6F997 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avformat;
+			productName = avformat;
+			productReference = 370486741B054A8100D6F997 /* libavformat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		370486991B054A9200D6F997 /* avutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370486B61B054A9300D6F997 /* Build configuration list for PBXNativeTarget "avutil" */;
+			buildPhases = (
+				370486961B054A9200D6F997 /* Sources */,
+				370486971B054A9200D6F997 /* Frameworks */,
+				370486981B054A9200D6F997 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avutil;
+			productName = avutil;
+			productReference = 3704869A1B054A9200D6F997 /* libavutil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		370486BF1B054AA100D6F997 /* swresample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370486DC1B054AA200D6F997 /* Build configuration list for PBXNativeTarget "swresample" */;
+			buildPhases = (
+				370486BC1B054AA100D6F997 /* Sources */,
+				370486BD1B054AA100D6F997 /* Frameworks */,
+				370486BE1B054AA100D6F997 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swresample;
+			productName = swresample;
+			productReference = 370486C01B054AA100D6F997 /* libswresample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		370486E51B054AAE00D6F997 /* swscale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370487021B054AAF00D6F997 /* Build configuration list for PBXNativeTarget "swscale" */;
+			buildPhases = (
+				370486E21B054AAE00D6F997 /* Sources */,
+				370486E31B054AAE00D6F997 /* Frameworks */,
+				370486E41B054AAE00D6F997 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swscale;
+			productName = swscale;
+			productReference = 370486E61B054AAE00D6F997 /* libswscale.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		378573781AED942700C48777 /* avcodec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378573971AED942800C48777 /* Build configuration list for PBXNativeTarget "avcodec" */;
+			buildPhases = (
+				378573751AED942700C48777 /* Sources */,
+				378573761AED942700C48777 /* Frameworks */,
+				378573771AED942700C48777 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avcodec;
+			productName = avcodec;
+			productReference = 378573791AED942700C48777 /* libavcodec.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -10548,14 +10831,62 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3785733A1AE4256A00C48777 /* ffmpeg */,
-				378573411AE6DD2100C48777 /* libavcodec */,
+				378573781AED942700C48777 /* avcodec */,
+				370486271B054A4100D6F997 /* avdevice */,
+				3704864D1B054A6F00D6F997 /* avfilter */,
+				370486731B054A8100D6F997 /* avformat */,
+				370486991B054A9200D6F997 /* avutil */,
+				370486BF1B054AA100D6F997 /* swresample */,
+				370486E51B054AAE00D6F997 /* swscale */,
+				370487081B05555D00D6F997 /* ffmpeg */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3785733E1AE6DD2100C48777 /* Sources */ = {
+		370486241B054A4100D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3704864A1B054A6F00D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486701B054A8100D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486961B054A9200D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486BC1B054AA100D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370486E21B054AAE00D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378573751AED942700C48777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -10564,22 +10895,514 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3704870D1B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378573781AED942700C48777 /* avcodec */;
+			targetProxy = 3704870C1B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+		3704870F1B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370486271B054A4100D6F997 /* avdevice */;
+			targetProxy = 3704870E1B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+		370487111B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3704864D1B054A6F00D6F997 /* avfilter */;
+			targetProxy = 370487101B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+		370487131B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370486731B054A8100D6F997 /* avformat */;
+			targetProxy = 370487121B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+		370487151B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370486991B054A9200D6F997 /* avutil */;
+			targetProxy = 370487141B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+		370487171B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370486BF1B054AA100D6F997 /* swresample */;
+			targetProxy = 370487161B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+		370487191B05677000D6F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370486E51B054AAE00D6F997 /* swscale */;
+			targetProxy = 370487181B05677000D6F997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		37854B431ADDB77300C48777 /* Debug */ = {
+		370486451B054A4200D6F997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = iphoneos;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/avdevice.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avdevice/avdevice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		37854B441ADDB77300C48777 /* Release */ = {
+		370486461B054A4200D6F997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = iphoneos;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/avdevice.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avdevice/avdevice-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3785733C1AE4256A00C48777 /* Debug */ = {
+		3704866B1B054A7000D6F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/avfilter.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avfilter/avfilter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3704866C1B054A7000D6F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/avfilter.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avfilter/avfilter-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370486911B054A8200D6F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/avformat.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avformat/avformat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		370486921B054A8200D6F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/avformat.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avformat/avformat-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370486B71B054A9300D6F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/avutil.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avutil/avutil-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		370486B81B054A9300D6F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/avutil.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "avutil/avutil-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370486DD1B054AA200D6F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/swresample.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swresample/swresample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		370486DE1B054AA200D6F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/swresample.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swresample/swresample-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370487031B054AAF00D6F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/swscale.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swscale/swscale-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		370487041B054AAF00D6F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/swscale.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swscale/swscale-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3704870A1B05555D00D6F997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -10613,6 +11436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -10621,7 +11445,7 @@
 			};
 			name = Debug;
 		};
-		3785733D1AE4256A00C48777 /* Release */ = {
+		3704870B1B05555D00D6F997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -10648,6 +11472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -10655,7 +11480,23 @@
 			};
 			name = Release;
 		};
-		378573641AE6DD2200C48777 /* Debug */ = {
+		37854B431ADDB77300C48777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37854B441ADDB77300C48777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		378573981AED942800C48777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -10672,12 +11513,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/libavcodec.dst;
+				DSTROOT = /tmp/avcodec.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libavcodec/libavcodec-Prefix.pch";
+				GCC_PREFIX_HEADER = "avcodec/avcodec-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -10693,12 +11534,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		378573651AE6DD2200C48777 /* Release */ = {
+		378573991AED942800C48777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -10715,11 +11555,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/libavcodec.dst;
+				DSTROOT = /tmp/avcodec.dst;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libavcodec/libavcodec-Prefix.pch";
+				GCC_PREFIX_HEADER = "avcodec/avcodec-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -10729,7 +11569,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -10738,6 +11577,69 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		370486441B054A4200D6F997 /* Build configuration list for PBXNativeTarget "avdevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370486451B054A4200D6F997 /* Debug */,
+				370486461B054A4200D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3704866A1B054A7000D6F997 /* Build configuration list for PBXNativeTarget "avfilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3704866B1B054A7000D6F997 /* Debug */,
+				3704866C1B054A7000D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370486901B054A8200D6F997 /* Build configuration list for PBXNativeTarget "avformat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370486911B054A8200D6F997 /* Debug */,
+				370486921B054A8200D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370486B61B054A9300D6F997 /* Build configuration list for PBXNativeTarget "avutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370486B71B054A9300D6F997 /* Debug */,
+				370486B81B054A9300D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370486DC1B054AA200D6F997 /* Build configuration list for PBXNativeTarget "swresample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370486DD1B054AA200D6F997 /* Debug */,
+				370486DE1B054AA200D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370487021B054AAF00D6F997 /* Build configuration list for PBXNativeTarget "swscale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370487031B054AAF00D6F997 /* Debug */,
+				370487041B054AAF00D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370487091B05555D00D6F997 /* Build configuration list for PBXLegacyTarget "ffmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3704870A1B05555D00D6F997 /* Debug */,
+				3704870B1B05555D00D6F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		37854B421ADDB77300C48777 /* Build configuration list for PBXProject "FFmpeg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -10747,21 +11649,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3785733B1AE4256A00C48777 /* Build configuration list for PBXLegacyTarget "ffmpeg" */ = {
+		378573971AED942800C48777 /* Build configuration list for PBXNativeTarget "avcodec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3785733C1AE4256A00C48777 /* Debug */,
-				3785733D1AE4256A00C48777 /* Release */,
+				378573981AED942800C48777 /* Debug */,
+				378573991AED942800C48777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		378573631AE6DD2200C48777 /* Build configuration list for PBXNativeTarget "libavcodec" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				378573641AE6DD2200C48777 /* Debug */,
-				378573651AE6DD2200C48777 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
