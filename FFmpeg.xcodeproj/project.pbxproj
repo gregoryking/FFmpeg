@@ -13,6 +13,7 @@
 		3704869B1B054A9200D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
 		370486C11B054AA100D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
 		370486E71B054AAE00D6F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
+		370DA2091B2C9BA600CCF0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
 		3785737A1AED942700C48777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378573451AE6DD2200C48777 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +124,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		370DA2061B2C9BA600CCF0DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		378573771AED942700C48777 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -141,6 +151,8 @@
 		3704869A1B054A9200D6F997 /* libavutil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libavutil.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		370486C01B054AA100D6F997 /* libswresample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libswresample.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		370486E61B054AAE00D6F997 /* libswscale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libswscale.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DA2081B2C9BA600CCF0DC /* libpostproc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpostproc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DA2181B2C9BA600CCF0DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37855FA31AE389A400C48777 /* audiogen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audiogen.c; sourceTree = "<group>"; };
 		37855FA41AE389A400C48777 /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
 		37855FA51AE389A400C48777 /* copycooker.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = copycooker.sh; sourceTree = "<group>"; };
@@ -5142,6 +5154,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				370486E71B054AAE00D6F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DA2051B2C9BA600CCF0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DA2091B2C9BA600CCF0DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10652,6 +10672,7 @@
 				3704869A1B054A9200D6F997 /* libavutil.a */,
 				370486C01B054AA100D6F997 /* libswresample.a */,
 				370486E61B054AAE00D6F997 /* libswscale.a */,
+				370DA2081B2C9BA600CCF0DC /* libpostproc.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -10661,6 +10682,7 @@
 			children = (
 				378573451AE6DD2200C48777 /* Foundation.framework */,
 				378575691B00FCAE00C48777 /* XCTest.framework */,
+				370DA2181B2C9BA600CCF0DC /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -10794,6 +10816,23 @@
 			productReference = 370486E61B054AAE00D6F997 /* libswscale.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		370DA2071B2C9BA600CCF0DC /* postproc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DA2291B2C9BA700CCF0DC /* Build configuration list for PBXNativeTarget "postproc" */;
+			buildPhases = (
+				370DA2041B2C9BA600CCF0DC /* Sources */,
+				370DA2051B2C9BA600CCF0DC /* Frameworks */,
+				370DA2061B2C9BA600CCF0DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = postproc;
+			productName = postproc;
+			productReference = 370DA2081B2C9BA600CCF0DC /* libpostproc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		378573781AED942700C48777 /* avcodec */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 378573971AED942800C48777 /* Build configuration list for PBXNativeTarget "avcodec" */;
@@ -10839,6 +10878,7 @@
 				370486BF1B054AA100D6F997 /* swresample */,
 				370486E51B054AAE00D6F997 /* swscale */,
 				370487081B05555D00D6F997 /* ffmpeg */,
+				370DA2071B2C9BA600CCF0DC /* postproc */,
 			);
 		};
 /* End PBXProject section */
@@ -10880,6 +10920,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		370486E21B054AAE00D6F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DA2041B2C9BA600CCF0DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -10950,6 +10997,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/avdevice.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -10992,6 +11040,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/avdevice.dst;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -11480,9 +11529,88 @@
 			};
 			name = Release;
 		};
+		370DA2251B2C9BA700CCF0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/postproc.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "postproc/postproc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		370DA2261B2C9BA700CCF0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/postproc.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "postproc/postproc-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		37854B431ADDB77300C48777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				SDKROOT = iphoneos;
 			};
@@ -11491,6 +11619,7 @@
 		37854B441ADDB77300C48777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				SDKROOT = iphoneos;
 			};
@@ -11512,6 +11641,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/avcodec.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -11554,6 +11684,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/avcodec.dst;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -11639,6 +11770,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		370DA2291B2C9BA700CCF0DC /* Build configuration list for PBXNativeTarget "postproc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DA2251B2C9BA700CCF0DC /* Debug */,
+				370DA2261B2C9BA700CCF0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		37854B421ADDB77300C48777 /* Build configuration list for PBXProject "FFmpeg" */ = {
 			isa = XCConfigurationList;
